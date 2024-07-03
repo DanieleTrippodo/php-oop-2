@@ -12,10 +12,16 @@
 
 <body>
     <?php
-    require_once __DIR__ . '/src/Category.php';
-    require_once __DIR__ . '/src/Food.php';
-    require_once __DIR__ . '/src/Toy.php';
-    require_once __DIR__ . '/src/Accessory.php';
+        require_once __DIR__ . '/src/Category.php';
+        require_once __DIR__ . '/src/Food.php';
+        require_once __DIR__ . '/src/Toy.php';
+        require_once __DIR__ . '/src/Accessory.php';
+
+        // Creazione di tutte le categorie
+        $dogCategory = new Category("Cane", "🐶");
+        $catCategory = new Category("Gatto", "🐱");
+        $birdCategory = new Category("Uccelli", "🐦");
+        $fishCategory = new Category("Pesci", "🐠");
 
     ?>
 </body>
