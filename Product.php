@@ -1,6 +1,6 @@
 <?php
 
-// # Attributi della classe
+// # Attributi della
 abstract class Product {
     protected $title;
     protected $price;
